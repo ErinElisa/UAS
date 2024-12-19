@@ -6,10 +6,16 @@ public class ACBeraksi {
         
         System.out.println("Status AC saat ini: Mati");
 
-        acRuangan.hidupkan();
-        acRuangan.matikan();
-        acRuangan.matikan();
-        acRuangan.hidupkan();
-        acRuangan.hidupkan();
+        acRuangan.hidupkanAC();
+        acRuangan.matikanAC();
+        acRuangan.matikanAC();
+        acRuangan.hidupkanAC();
+        acRuangan.hidupkanAC();
+
+        acRuangan.dinginkanAC();
+        acRuangan.panaskanAC();
+        acRuangan.panaskanAC();
+        acRuangan.dinginkanAC();
+        acRuangan.dinginkanAC();
     }
 }
